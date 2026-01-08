@@ -51,7 +51,7 @@ Follow these steps to get the project running locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/rveljko/forward.git
+   git clone https://github.com/amnatariq290/forward-task-tracker.git
    ```
 2. Navigate into the project directory:
    ```bash
