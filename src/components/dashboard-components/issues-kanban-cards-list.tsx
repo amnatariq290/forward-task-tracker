@@ -1,0 +1,26 @@
+import IssuesKanbanCard from '@dashboard-components/issues-kanban-card'
+import { SortableContext } from '@dnd-kit/sortable'
+import { Issue } from '@utils/types'
+import { cn } from '@utils/utils'
+
+type IssuesKanbanCardsListProps = React.ComponentPropsWithRef<'ul'> & {
+  issues: Issue[]
+}
+
+export default function IssuesKanbanCardsList({
+  issues,
+  className,
+  ...props
+}: IssuesKanbanCardsListProps) {
+  return (
+    <ul className={cn('flex grow flex-col gap-2', className)} {...props}>
+      <SortableContext items={issues}>
+        {issues.map((issue) => (
+          <li key={issue.id}>
+            <IssuesKanbanCard issue={issue} />
+          </li>
+        ))}
+      </SortableContext>
+    </ul>
+  )
+}
