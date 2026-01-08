@@ -97,15 +97,6 @@ It helps users manage tasks, set priorities, track deadlines, and visualize proj
 - **Resource Planning:** Prioritize tasks effectively
 - **Risk Management:** Identify potential delays in tasks
 
-## Installation (Local)
-```bash
-git clone https://github.com/YOUR_USERNAME/forward-task-tracker.git
-cd forward-task-tracker
-npm install
-npm run dev
-
-   http://localhost:5173
-   ```
 
 ## License
 
