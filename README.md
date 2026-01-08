@@ -73,6 +73,37 @@ Follow these steps to get the project running locally:
    ```
 6. Open your browser and navigate to:
    ```
+   # Forward Task Tracker
+
+**Forward Task Tracker** is a modern **web-based project management and task tracking application**.  
+It helps users manage tasks, set priorities, track deadlines, and visualize project progress using a simple Kanban-style board.
+
+## Features
+- Add, update, and delete tasks
+- Mark tasks as Todo, In-Progress, or Done
+- Set task priorities (High, Medium, Low)
+- Deadlines with alerts
+- Basic Gantt chart visualization (timeline)
+- Clean React + TypeScript front-end
+
+## Technologies Used
+- **React** (UI framework)
+- **TypeScript** (typed JavaScript)
+- **Vite** (fast development server)
+- **Tailwind CSS** (styling)
+
+## PM Concepts Covered
+- **Time Management:** Track task deadlines efficiently
+- **Resource Planning:** Prioritize tasks effectively
+- **Risk Management:** Identify potential delays in tasks
+
+## Installation (Local)
+```bash
+git clone https://github.com/YOUR_USERNAME/forward-task-tracker.git
+cd forward-task-tracker
+npm install
+npm run dev
+
    http://localhost:5173
    ```
 
